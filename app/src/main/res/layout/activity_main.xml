@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btn_load"
+        android:onClick="loadView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="145dp"
+           android:text="载入xlsx" />
+    
+    <Button
+        android:id="@+id/btn_load_doc"
+        android:onClick="loadView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="15dp"
+           android:text="载入doc" />
+
+    <Button
+        android:id="@+id/btn_load_docx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="80dp"
+        android:text="载入docx" />
+    
+    <Button
+        android:id="@+id/btn_load_xls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="210dp"
+        android:text="载入xls" />
+
+</RelativeLayout>

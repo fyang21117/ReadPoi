@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/timg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:id="@+id/fileName"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="打开汇总文件"
+                android:layout_below="@id/fileName"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:background="@drawable/bt_bg"
+                android:id="@+id/open"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:id="@+id/sumContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_below="@id/open"
+                android:layout_marginTop="30dp"
+                android:textSize="15sp"
+                android:textColor="#333"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="分享"
+                android:layout_below="@id/sumContent"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:visibility="gone"
+                android:layout_marginBottom="30dp"
+                android:textSize="20sp"
+                android:background="@drawable/bt_bg"
+                android:id="@+id/share"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
